@@ -29,6 +29,7 @@ public class Atraco implements Serializable  {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
+	// Otro comentario despues de crear una rama nueva
 	@Temporal(TemporalType.DATE)
 	@Column(name = "FECHA", nullable = false)
 	private Date fecha;
