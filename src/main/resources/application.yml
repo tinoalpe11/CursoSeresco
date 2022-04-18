@@ -1,0 +1,22 @@
+
+server:
+    port: 8080
+
+
+#spring:
+#    config:
+#        import: file:/tmp/additional.properties
+
+
+management:
+    endpoints:
+        web:
+            exposure:
+                include: info, health, metrics, env
+
+
+victor:
+    ws:
+        url: http://victor.com
+        user: victor_user
+        pass: victor_pass
