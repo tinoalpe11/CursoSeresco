@@ -21,9 +21,8 @@ import javax.persistence.TemporalType;
 @Entity
 @Table(name = "ATRACO")
 public class Atraco implements Serializable  {
-	/**
-	 * 
-	 */
+	
+	// Modificacion prueba git
 	private static final long serialVersionUID = 5807833637568906534L;
 
 	@Id
